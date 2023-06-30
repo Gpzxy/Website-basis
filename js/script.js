@@ -1,15 +1,15 @@
 // Toggle class active
-const navbarnav = document.querySelector(".navbar-nav");
+const navbarNav = document.querySelector(".navbar-nav");
 // ketika hamburger menu diklik
 document.querySelector("#hamburger-menu").onclick = () => {
-  navbarnav.classList.toggle("active");
+  navbarNav.classList.toggle("active");
 };
 
 // keluar sidebar
 const hamburger = document.querySelector("#hamburger-menu");
 
 document.addEventListener("click", function (e) {
-  if (!hamburger.contains(e.target) && !navbarnav.contains(e.target)) {
-    navbarnav.classList.remove("active");
+  if (!hamburger.contains(e.target) && !navbarNav.contains(e.target)) {
+    navbarNav.classList.remove("active");
   }
 });
