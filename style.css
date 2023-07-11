@@ -27,7 +27,7 @@ body {
 
 /* Navbar */
 .navbar {
-  display: flex;
+  display: -webkit-flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.4rem 7%;
@@ -54,8 +54,8 @@ body {
 .navbar .navbar-nav a {
   color: #fff;
   display: inline-block;
-  font-size: 1.2rem;
-  margin: 0 1rem;
+  font-size: 1.4rem;
+  margin: 0 1%;
 }
 .navbar .navbar-nav a:hover {
   color: var(--primary);
@@ -191,9 +191,9 @@ body {
 /* Media Quaeris */
 
 /* Laptop */
-@media (max-width: 1366px) {
+@media (max-width: 2236px) {
   html {
-    font-size: 75%;
+    font-size: 80%;
   }
 }
 
