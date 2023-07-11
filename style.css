@@ -27,7 +27,7 @@ body {
 
 /* Navbar */
 .navbar {
-  display: -webkit-flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.4rem 7%;
@@ -41,6 +41,7 @@ body {
 }
 
 .navbar .navbar-logo {
+  display: flex;
   font-size: 2rem;
   font-weight: 700;
   color: #fff;
