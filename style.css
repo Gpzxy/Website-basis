@@ -41,7 +41,6 @@ body {
 }
 
 .navbar .navbar-logo {
-  display: flex;
   font-size: 2rem;
   font-weight: 700;
   color: #fff;
@@ -54,7 +53,7 @@ body {
 
 .navbar .navbar-nav a {
   color: #fff;
-  display: inline-block;
+  display: -webkit-flex;
   font-size: 1.4rem;
   margin: 0 1%;
 }
@@ -64,7 +63,7 @@ body {
 
 .navbar .navbar-nav a::after {
   content: "";
-  display: block;
+  display: flex;
   padding-bottom: 0.5rem;
   border-bottom: 0.1rem solid var(--primary);
   transform: scaleX(0);
